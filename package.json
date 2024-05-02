@@ -1,6 +1,6 @@
 {
   "name": "tsc",
-  "version": "5.4.4",
+  "version": "5.4.5",
   "description": "tsconfig latest",
   "main": "index.js",
   "scripts": {
