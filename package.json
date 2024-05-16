@@ -1,12 +1,30 @@
 {
-  "name": "new",
+  "name": ".tsc",
   "version": "0.0.0",
-  "description": "new",
-  "main": "index.js",
-  "scripts": {
+  "description": ".tsc",
+  "type": "module",
+  "private": true,
+  "main": "./dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimmy-zhening-luo/.tsc.git"
   },
   "author": "Jimmy Zhening Luo",
   "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jimmy-zhening-luo/.tsc/issues"
+  },
+  "homepage": "https://github.com/jimmy-zhening-luo/.tsc#readme",
+  "scripts": {
+    "lint": "eslint --cache --cache-strategy content -c eslint.config.js *.config.js src/**/*",
+    "lint:fix": "npm run lint -- --fix",
+    "prebuild": "npm run lint:fix",
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "pretest": "npm run build",
+    "test": "exit 1",
+    "dev": "npm run test"
+  },
   "devDependencies": {
     "typescript": "^5.4.5"
   }
