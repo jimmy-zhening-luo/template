@@ -1,13 +1,12 @@
 {
-  "name": "tsc",
-  "version": "5.4.5",
-  "description": "tsconfig latest",
+  "name": "new",
+  "version": "0.0.0",
+  "description": "new",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jimmy Zhening Luo",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "devDependencies": {
     "typescript": "^5.4.5"
   }
