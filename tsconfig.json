@@ -1,6 +1,7 @@
 {
   "include": [
-    "./eslint.config.js",
+    "./*config.js",
+    "./*config.ts",
     "./src/**/*",
   ],
   "compilerOptions": {
