@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/jimmy-zhening-luo/.tsc#readme",
   "scripts": {
-    "lint": "eslint --cache --cache-strategy content -c eslint.config.js *.config.js src/**/*",
+    "lint": "eslint --cache --cache-strategy content -c eslint.config.js *.config.js *.config.ts src/**/*",
     "lint:fix": "npm run lint -- --fix",
     "prebuild": "npm run lint:fix",
     "build": "tsc",
