@@ -1,8 +1,8 @@
 {
   "include": [
-    "./*config.js",
-    "./*config.ts",
-    "./src/**/*",
+    "*config.js",
+    "*config.ts",
+    "src/**/*",
   ],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
