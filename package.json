@@ -1,29 +1,30 @@
 {
-  "name": ".tsc",
+  "name": "{NAME}",
   "version": "0.0.0",
-  "description": ".tsc",
+  "description": "",
   "type": "module",
   "private": true,
-  "main": "./dist/js/index.js",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jimmy-zhening-luo/.tsc.git"
+    "url": "git+https://github.com/jimmy-zhening-luo/{REPO}.git"
   },
   "author": "Jimmy Zhening Luo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jimmy-zhening-luo/.tsc/issues"
+    "url": "https://github.com/jimmy-zhening-luo/{REPO}/issues"
   },
-  "homepage": "https://github.com/jimmy-zhening-luo/.tsc#readme",
+  "homepage": "https://github.com/jimmy-zhening-luo/{REPO}#readme",
   "scripts": {
     "lint": "eslint --cache --cache-strategy content -c eslint.config.js *.config.js src/**/*",
     "lint:fix": "npm run lint -- --fix",
     "prebuild": "npm run lint:fix",
     "build": "tsc",
+    "prestart": "npm run build",
     "prepublishOnly": "npm run build",
     "pretest": "npm run build",
     "test": "exit 1",
-    "dev": "npm run test"
+    "dev": "npm test"
   },
   "devDependencies": {
     "@jimbojet/lint": "~8.0.18",
