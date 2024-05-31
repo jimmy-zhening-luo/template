@@ -1,6 +1,6 @@
 {
   "include": [
-    "*config.js",
+    "*.config.js",
     "src/**/*",
   ],
   "compilerOptions": {
