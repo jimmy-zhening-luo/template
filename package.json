@@ -31,7 +31,7 @@
     "prepublishOnly": "npm test",
     "prestart": "npm test",
     "start": "node .",
-    "dev": "npm test"
+    "dev": "npm start"
   },
   "devDependencies": {
     "@jimbojet/lint": "~9.0.0",
