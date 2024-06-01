@@ -1,18 +1,14 @@
 import stylistic from "@stylistic/eslint-plugin";
-import ts from "@typescript-eslint/eslint-plugin";
-import parser from "@typescript-eslint/parser";
 import Lint from "@jimbojet/lint";
 
 export default [
   ...new Lint(
+    stylistic,
     {
-      stylistic,
-      files: ["*.config.js"],
+      js: ["*.config.js"],
+      ts: ["src/**/*.ts"],
     },
-    {
-      ts,
-      parser,
-      files: ["src/**/*.ts"],
-    },
-  ).configs,
+    { },
+  )
+    .configs,
 ];
