@@ -2,6 +2,7 @@
   "name": "{PACKAGE}",
   "version": "0.0.0",
   "description": "",
+  "keywords": [ ],
   "type": "module",
   "private": true,
   "main": "dist/index.js",
