@@ -34,8 +34,7 @@
     "dev": "npm start"
   },
   "devDependencies": {
-    "@jimbojet/lint": "~9.0.0",
-    "@stylistic/eslint-plugin": "~2.1.0",
+    "@jimbojet/lint": "~10.1.2",
     "eslint": "~8.57.0",
     "typescript": "^5.4.5"
   }
