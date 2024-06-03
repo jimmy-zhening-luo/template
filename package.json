@@ -29,8 +29,7 @@
     "test": "exit 0",
     "prepublishOnly": "npm test",
     "prestart": "npm test",
-    "start": "node .",
-    "dev": "npm start"
+    "start": "node ."
   },
   "devDependencies": {
     "@jimbojet/lint": "~10.2.1",
