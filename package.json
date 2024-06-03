@@ -2,7 +2,7 @@
   "name": "{PACKAGE}",
   "version": "0.0.0",
   "description": "",
-  "keywords": [ ],
+  "keywords": [],
   "type": "module",
   "private": true,
   "main": "dist/index.js",
@@ -13,17 +13,15 @@
   },
   "author": "Jimmy Zhening Luo",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jimmy-zhening-luo/{REPO}/issues"
-  },
+  "bugs": { "url": "https://github.com/jimmy-zhening-luo/{REPO}/issues" },
   "homepage": "https://github.com/jimmy-zhening-luo/{REPO}#readme",
   "scripts": {
     "es": "eslint --fix --cache --cache-strategy content -c eslint.config.js",
     "lint": "npm run lint:config && npm run lint:src",
-    "lint:config": "npm run lint:config:js",
-    "lint:src": "npm run lint:src:ts",
+    "lint:config": "npm run lint:config:json && npm run lint:config:js",
+    "lint:config:json": "npm run es -- package.json tsconfig.json",
     "lint:config:js": "npm run es -- *.config.js",
-    "lint:config:ts": "npm run es -- *.config.ts",
+    "lint:src": "npm run lint:src:ts",
     "lint:src:ts": "npm run es -- src/**/*.ts",
     "prebuild": "npm run lint",
     "build": "tsc",
@@ -35,7 +33,7 @@
     "dev": "npm start"
   },
   "devDependencies": {
-    "@jimbojet/lint": "~10.1.2",
+    "@jimbojet/lint": "~10.2.1",
     "eslint": "~8.57.0",
     "typescript": "^5.4.5"
   }
