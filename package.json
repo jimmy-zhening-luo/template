@@ -36,7 +36,7 @@
     "start": "node ."
   },
   "devDependencies": {
-    "@jimbojet/lint": "~10.2.1",
+    "@jimbojet/lint": "~10.2.2",
     "eslint": "~8.57.0",
     "typescript": "^5.4.5"
   }
