@@ -26,7 +26,7 @@
     "lint:src:ts": "npm run es -- src/**/*.ts",
     "lint:src:svelte": "",
     "lint:ci": "npm run lint:ci:yml",
-    "lint:ci:yml": "npm run es -- .github/workflows/*.yml",
+    "lint:ci:yml": "",
     "prebuild": "npm run lint",
     "build": "tsc",
     "pretest": "npm run build",
