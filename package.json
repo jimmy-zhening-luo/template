@@ -13,7 +13,9 @@
   },
   "author": "Jimmy Zhening Luo",
   "license": "MIT",
-  "bugs": { "url": "https://github.com/jimmy-zhening-luo/{REPO}/issues" },
+  "bugs": {
+    "url": "https://github.com/jimmy-zhening-luo/{REPO}/issues"
+  },
   "homepage": "https://github.com/jimmy-zhening-luo/{REPO}#readme",
   "scripts": {
     "es": "eslint --fix --cache --cache-strategy content -c eslint.config.js",
@@ -36,7 +38,7 @@
     "start": "node ."
   },
   "devDependencies": {
-    "@jimbojet/lint": "~10.2.2",
+    "@jimbojet/lint": "~10.2.4",
     "eslint": "~8.57.0",
     "typescript": "^5.4.5"
   }
