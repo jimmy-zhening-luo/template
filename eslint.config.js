@@ -15,7 +15,7 @@ export default [
       html: ["src/**/*.html"],
       jsonc: ["tsconfig.json"],
       json: [
-        // *.json
+        // "*.json",
         "package.json"
       ],
       yml: [".github/workflows/*.yml"],
