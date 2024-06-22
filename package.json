@@ -17,6 +17,13 @@
     "url": "https://github.com/jimmy-zhening-luo/{REPO}/issues"
   },
   "homepage": "https://github.com/jimmy-zhening-luo/{REPO}#readme",
+  "peerDependencies": {},
+  "dependencies": {},
+  "devDependencies": {
+    "@jimbojet/lint": "~10.10.0",
+    "eslint": "~8.57.0",
+    "typescript": "^5.5.2"
+  },
   "scripts": {
     "es": "eslint --fix --cache --cache-strategy content -c eslint.config.js",
     "lint": "npm run lint:cfg && npm run lint:src && npm run lint:ci",
@@ -30,10 +37,5 @@
     "prepublishOnly": "npm test",
     "prestart": "npm test",
     "start": "node ."
-  },
-  "devDependencies": {
-    "@jimbojet/lint": "~10.10.0",
-    "eslint": "~8.57.0",
-    "typescript": "^5.5.2"
   }
 }
