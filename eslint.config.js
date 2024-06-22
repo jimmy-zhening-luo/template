@@ -13,6 +13,7 @@ export default [
       ],
       svelte: ["src/**/*.svelte"],
       html: ["src/**/*.html"],
+      jest: ["src/**/*.spec.ts"],
       jsonc: ["tsconfig.json"],
       json: [
         // "*.json",
