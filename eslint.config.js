@@ -1,4 +1,6 @@
-import linted from "@jimbojet/lint";
+// eslint.config.js
+// v12.0.0
+import linted from "linted";
 
 export default [
   ...new linted(
@@ -19,7 +21,10 @@ export default [
         // "*.json",
         "package.json"
       ],
-      yml: [".github/workflows/*.yml"],
+      yml: [
+        ".markdownlint.yml",
+        ".github/workflows/*.yml",
+      ],
     },
   )
     .configs,

@@ -7,7 +7,7 @@
   "type": "module",
   "private": true,
   "config": {
-    "PACKAGE_JSON_VERSION": "1.0.1"
+    "PACKAGE_JSON_VERSION": "1.1.0"
   },
   "repository": {
     "type": "git",
@@ -30,13 +30,13 @@
   "dependencies": {},
   "devDependencies": {
     "eslint": "~8.57.0",
-    "linted": "~12.0.2",
+    "linted": "~12.1.0",
     "typescript": "^5.5.2"
   },
   "scripts": {
     "es": "eslint --fix --cache --cache-strategy content -c eslint.config.js",
     "lint": "npm run lint:cfg && npm run lint:src && npm run lint:ci",
-    "lint:cfg": "npm run es -- package.json tsconfig.json eslint.config.js",
+    "lint:cfg": "npm run es -- package.json tsconfig.json eslint.config.js .markdownlint.yml",
     "lint:src": "npm run es -- src/**/*.ts",
     "lint:ci": "",
     "prebuild": "npm run lint",
