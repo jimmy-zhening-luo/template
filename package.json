@@ -3,21 +3,30 @@
   "version": "0.0.0",
   "description": "",
   "keywords": [],
+  "license": "MIT",
   "type": "module",
   "private": true,
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "config": {
+    "PACKAGE_JSON_VERSION": "1.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jimmy-zhening-luo/{REPO}.git"
   },
-  "author": "Jimmy Zhening Luo",
-  "license": "MIT",
+  "homepage": "https://github.com/jimmy-zhening-luo/{REPO}#readme",
   "bugs": {
     "url": "https://github.com/jimmy-zhening-luo/{REPO}/issues"
   },
-  "homepage": "https://github.com/jimmy-zhening-luo/{REPO}#readme",
+  "author": {
+    "name": "Jimmy Zhening Luo",
+    "email": "1450044+jimmy-zhening-luo@users.noreply.github.com",
+    "url": "https://jimm.my",
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "peerDependencies": {},
+  "peerDependenciesMeta": {},
+  "optionalDependencies": {},
   "dependencies": {},
   "devDependencies": {
     "eslint": "~8.57.0",
