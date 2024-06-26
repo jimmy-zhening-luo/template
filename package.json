@@ -20,8 +20,8 @@
   "peerDependencies": {},
   "dependencies": {},
   "devDependencies": {
-    "@jimbojet/lint": "~11.2.1",
     "eslint": "~8.57.0",
+    "linted": "~12.0.0",
     "typescript": "^5.5.2"
   },
   "scripts": {

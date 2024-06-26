@@ -1,7 +1,7 @@
-import Lint from "@jimbojet/lint";
+import linted from "@jimbojet/lint";
 
 export default [
-  ...new Lint(
+  ...new linted(
     {
       js: [
         // "*.config.js",
