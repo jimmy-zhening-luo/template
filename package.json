@@ -7,7 +7,7 @@
   "type": "module",
   "private": true,
   "config": {
-    "PACKAGE_JSON_VERSION": "1.0.0"
+    "PACKAGE_JSON_VERSION": "1.0.1"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
   "author": {
     "name": "Jimmy Zhening Luo",
     "email": "1450044+jimmy-zhening-luo@users.noreply.github.com",
-    "url": "https://jimm.my",
+    "url": "https://jimm.my"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
