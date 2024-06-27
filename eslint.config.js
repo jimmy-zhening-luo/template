@@ -21,10 +21,7 @@ export default [
         // "*.json",
         "package.json"
       ],
-      yml: [
-        ".markdownlint.yml",
-        ".github/workflows/*.yml",
-      ],
+      yml: [".github/workflows/*.yml"],
     },
   )
     .configs,
