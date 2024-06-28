@@ -1,12 +1,12 @@
 // eslint.config.js
-// v12.1.0
+// v12.1.1
 import linted from "linted";
 
 export default [
   ...new linted(
     {
       js: [
-        "eslint.config.js"
+        "eslint.config.js",
         // "svelte.config.js",
       ],
       ts: [
