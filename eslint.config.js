@@ -1,5 +1,5 @@
 // eslint.config.js
-// v12.1.1
+// v12.1.2
 import linted from "linted";
 
 export default [
