@@ -6,12 +6,12 @@ export default [
   ...new linted(
     {
       js: [
-        // "svelte.config.js",
         "eslint.config.js",
+        "svelte.config.js",
       ],
       ts: [
-        // "vite.config.ts",
         "src/**/*.ts",
+        "vite.config.ts",
       ],
       svelte: ["src/**/*.svelte"],
       html: ["src/**/*.html"],
