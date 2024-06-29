@@ -4,13 +4,10 @@ import linted from "linted";
 
 export default new linted(
   {
-    js: [
-      "eslint.config.js",
-      "svelte.config.js",
-    ],
+    js: ["*.config.js"],
     ts: [
       "src/**/*.ts",
-      "vite.config.ts",
+      "*.config.ts",
     ],
     svelte: ["src/**/*.svelte"],
     html: ["src/**/*.html"],
