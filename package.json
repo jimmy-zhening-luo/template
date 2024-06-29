@@ -7,7 +7,7 @@
   "type": "module",
   "private": true,
   "config": {
-    "PACKAGE_JSON_VERSION": "20.0.0"
+    "PACKAGE_JSON_VERSION": "20.1.0"
   },
   "repository": {
     "type": "git",
@@ -33,6 +33,12 @@
     "linted": "~13.0.3",
     "typescript": "^5.5.2"
   },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/src/"
+    ]
+  },
   "scripts": {
     "e": "eslint -c eslint.config.js --cache --fix",
     "lint": "(npm run lint:cfg) && (npm run lint:src) && (npm run --if-present lint:ci) && (npm run --if-present lint:svelte)",
@@ -43,7 +49,8 @@
     "prebuild": "npm run lint",
     "build": "tsc",
     "pretest": "npm run build",
-    "test": "exit 0",
+    "test": "(npm run test:jest) || (exit 0)",
+    "test:jest": "cross-env NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" NODE_NO_WARNINGS=1 jest --",
     "prepublishOnly": "npm test",
     "prestart": "npm test",
     "start": "node ."
