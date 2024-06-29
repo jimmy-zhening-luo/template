@@ -1,6 +1,6 @@
-// tsconfig.json
-// v5.5.2-tsc.0
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "_version": "5.5.3",
   "include": [
     "src/**/*.ts",
   ],
