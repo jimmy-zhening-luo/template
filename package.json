@@ -7,7 +7,7 @@
   "type": "module",
   "private": true,
   "config": {
-    "PACKAGE_JSON_VERSION": "20.3.0"
+    "PACKAGE_JSON_VERSION": "20.4.0"
   },
   "repository": {
     "type": "git",
@@ -50,8 +50,8 @@
     "prebuild": "(npm run --if-present check) && (npm run lint)",
     "build": "tsc",
     "pretest": "npm run build",
-    "test": "npm run --if-present test:jest",
-    "test:jest": "cross-env NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" NODE_NO_WARNINGS=1 jest --",
+    "test": "npm run test:jest",
+    "test:jest": "cross-env NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" NODE_NO_WARNINGS=1 jest --passWithNoTests --",
     "prepublishOnly": "npm test",
     "prestart": "npm test",
     "start": "node ."
