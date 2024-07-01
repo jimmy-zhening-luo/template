@@ -30,7 +30,7 @@
   "dependencies": {},
   "devDependencies": {
     "eslint": "~8.57.0",
-    "linted": "~13.0.13",
+    "linted": "~14.0.3",
     "typescript": "^5.5.2"
   },
   "jest": {
