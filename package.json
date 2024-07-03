@@ -31,7 +31,7 @@
   "devDependencies": {
     "eslint": "~8.57.0",
     "linted": "~14.0.3",
-    "typescript": "^5.5.2"
+    "typescript": "^5.5.3"
   },
   "jest": {
     "testPathIgnorePatterns": [
