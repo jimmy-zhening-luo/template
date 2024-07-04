@@ -7,7 +7,7 @@
   "type": "module",
   "private": true,
   "config": {
-    "PACKAGE_JSON_VERSION": "20.5.0"
+    "PACKAGE_JSON_VERSION": "20.6.0"
   },
   "repository": {
     "type": "git",
@@ -47,11 +47,12 @@
     "prebuild:svelte": "(svelte-kit sync) && (svelte-check --tsconfig ./tsconfig.json)",
     "prebuild": "(npm run --if-present prebuild:svelte) && (npm run lint)",
     "build": "tsc",
-    "githubAction": "npm run test",
+    "pretest": "npm run build",
+    "test": "cross-env NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" NODE_NO_WARNINGS=1 jest --passWithNoTests --",
     "prepublishOnly": "npm test",
     "prestart": "npm test",
     "start": "node .",
-    "pretest": "npm run build",
-    "test": "cross-env NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" NODE_NO_WARNINGS=1 jest --passWithNoTests --"
+    "preaction": "npm test",
+    "action": ""
   }
 }
