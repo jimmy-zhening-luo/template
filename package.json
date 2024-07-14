@@ -7,7 +7,7 @@
   "type": "module",
   "private": true,
   "config": {
-    "PACKAGE_JSON_VERSION": "20.8.0"
+    "PACKAGE_JSON_VERSION": "20.8.1"
   },
   "repository": {
     "type": "git",
