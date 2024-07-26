@@ -1,16 +1,21 @@
 {
+  "_schemaVersion": "20.13.0",
   "name": "{PACKAGE}",
   "version": "0.0.0",
   "description": "",
   "keywords": [],
   "license": "MIT",
   "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": "github:jimmy-zhening-luo/{REPO}",
   "homepage": "https://github.com/jimmy-zhening-luo/{REPO}#readme",
   "bugs": "https://github.com/jimmy-zhening-luo/{REPO}/issues",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "engineStrict": true,
   "engines": {
     "node": ">=20.15.0",
     "npm": ">=10.7.0"
@@ -21,7 +26,7 @@
   "dependencies": {},
   "devDependencies": {
     "eslint": "~8.57.0",
-    "linted": "~15.4.12",
+    "linted": "~15.4.13",
     "npm-run-all": "^4.1.5",
     "typescript": "^5.5.4"
   },
@@ -44,9 +49,6 @@
     "prepublishOnly": "npm test",
     "predeploy": "npm test",
     "deploy": ""
-  },
-  "config": {
-    "PACKAGE_JSON": "20.12.0"
   },
   "author": "Jimmy Zhening Luo <1450044+jimmy-zhening-luo@users.noreply.github.com> (https://jimm.my/)"
 }
