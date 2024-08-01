@@ -30,7 +30,7 @@
     "typescript": "^5.5.4"
   },
   "scripts": {
-    "build": "run-s \"build:{1}:*\" lint:built  --  {TS|SVELTE}",
+    "build": "run-s \"build:{1}:*\" lint:built  --  {LANGUAGE}",
     "build:ts:compile": "tsc",
     "build:svelte:sync": "svelte-kit sync",
     "build:svelte:check": "svelte-check --tsconfig ./tsconfig.json",
