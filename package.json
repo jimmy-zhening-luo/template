@@ -1,5 +1,5 @@
 {
-  "_schemaVersion": "20.16.1",
+  "_schemaVersion": "20.17.0",
   "name": "{PACKAGE}",
   "version": "0.0.0",
   "description": "",
@@ -17,8 +17,8 @@
   "types": "dist/index.d.ts",
   "engineStrict": true,
   "engines": {
-    "node": ">=20.16.0",
-    "npm": ">=10.8.1"
+    "node": ">=20.17.0",
+    "npm": ">=10.8.2"
   },
   "peerDependenciesMeta": {},
   "dependencies": {},
