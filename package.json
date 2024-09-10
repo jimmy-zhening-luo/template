@@ -1,5 +1,5 @@
 {
-  "_schemaVersion": "20.17.6",
+  "_schemaVersion": "20.17.7",
   "name": "{PACKAGE}",
   "version": "0.0.0",
   "description": "",
@@ -39,7 +39,7 @@
     "lint:built": "run-s -c lint:built:*",
     "lint:built:configs": "npm run ln --files={*,.github/workflows/*}.{json,jsonc,js,ts,yml}",
     "lint:built:source": "npm run ln --files=src/**/*.{js,ts,html}",
-    "ln": "eslint --cache --fix %npm_config_files% || echo \"No linter installed.\"",
+    "ln": "eslint --cache --fix --no-error-on-unmatched-pattern %npm_config_files% || echo \"No linter installed.\"",
     "pretest": "npm run build",
     "test": "",
     "start": "vite preview || node .",
