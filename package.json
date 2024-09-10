@@ -1,5 +1,5 @@
 {
-  "_schemaVersion": "20.17.5",
+  "_schemaVersion": "20.17.6",
   "name": "{PACKAGE}",
   "version": "0.0.0",
   "description": "",
@@ -34,7 +34,7 @@
     "build:svelte:sync": "svelte-kit sync",
     "build:svelte:check": "svelte-check --tsconfig ./tsconfig.json",
     "build:svelte:compile": "vite build",
-    "build:svelte:prelint": "npm run ln src/**/*.svelte || echo \"Svelte prelint step failed.\"",
+    "build:svelte:prelint": "npm run ln src/**/*.svelte",
     "lint": "npm run build",
     "lint:built": "run-s -c lint:built:*",
     "lint:built:configs": "npm run ln --files={*,.github/workflows/*}.{json,jsonc,js,ts,yml}",
