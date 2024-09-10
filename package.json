@@ -1,5 +1,5 @@
 {
-  "_schemaVersion": "20.17.7",
+  "_schemaVersion": "20.17.8",
   "name": "{PACKAGE}",
   "version": "0.0.0",
   "description": "",
@@ -36,7 +36,7 @@
     "build:svelte:compile": "vite build",
     "build:svelte:prelint": "npm run ln src/**/*.svelte",
     "lint": "npm run build",
-    "lint:built": "run-s -c lint:built:*",
+    "lint:built": "run-s lint:built:*",
     "lint:built:configs": "npm run ln --files={*,.github/workflows/*}.{json,jsonc,js,ts,yml}",
     "lint:built:source": "npm run ln --files=src/**/*.{js,ts,html}",
     "ln": "eslint --cache --fix --no-error-on-unmatched-pattern %npm_config_files% || echo \"No linter installed.\"",
