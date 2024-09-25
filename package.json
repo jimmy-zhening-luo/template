@@ -1,6 +1,6 @@
 {
   "_schemaVersion": "20.17.8",
-  "name": "{PACKAGE}",
+  "name": "package_name",
   "version": "0.0.0",
   "description": "",
   "keywords": [],
@@ -9,9 +9,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": "github:jimmy-zhening-luo/{REPO}",
-  "homepage": "https://github.com/jimmy-zhening-luo/{REPO}#readme",
-  "bugs": "https://github.com/jimmy-zhening-luo/{REPO}/issues",
+  "repository": "github:jimmy-zhening-luo/REPO",
+  "homepage": "https://github.com/jimmy-zhening-luo/REPO#readme",
+  "bugs": "https://github.com/jimmy-zhening-luo/REPO/issues",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -29,7 +29,7 @@
     "typescript": "^5.6.2"
   },
   "scripts": {
-    "build": "run-s \"build:{1}:*\" lint:built  --  {LANGUAGE}",
+    "build": "run-s \"build:{1}:*\" lint:built  --  LANGUAGE",
     "build:ts:compile": "tsc",
     "build:svelte:sync": "svelte-kit sync",
     "build:svelte:check": "svelte-check --tsconfig ./tsconfig.json",
