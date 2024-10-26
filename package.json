@@ -1,5 +1,5 @@
 {
-  "_schemaVersion": "20.18.0",
+  "_schemaVersion": "20.18.1",
   "name": "package_name",
   "version": "0.0.0",
   "description": "",
@@ -28,8 +28,12 @@
   "peerDependenciesMeta": {},
   "dependencies": {},
   "devDependencies": {
+    "@types/chai": "^5.0.0",
+    "@types/mocha": "^10.0.9",
+    "chai": "^5.1.2",
     "eslint": "~9.13.0",
     "linted": "~19.1.1",
+    "mocha": "^10.7.3",
     "npm-run-all": "^4.1.5",
     "run-script-os": "^1.1.6",
     "ts-add-js-extension": "^1.6.4",
@@ -66,7 +70,7 @@
     "lint:scope:svelte": "npm run li -- {src,tests,static}/**/*.svelte",
     "postbuild": "echo \"Build (+lint) complete.\"",
     "pretest": "npm run build",
-    "test": "",
+    "test": "mocha",
     "start": "run-os",
     "start:default": "npm run starter:$npm_package_config_language",
     "start:windows": "npm run starter:%npm_package_config_language%",
@@ -76,6 +80,11 @@
     "prepublishOnly": "npm test",
     "predeploy": "npm test",
     "deploy": ""
+  },
+  "mocha": {
+    "spec": [
+      "dist/**/*.spec.js"
+    ]
   },
   "author": "Jimmy Zhening Luo <1450044+jimmy-zhening-luo@users.noreply.github.com> (https://jimm.my/)"
 }
