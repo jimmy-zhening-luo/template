@@ -10,7 +10,8 @@
   "license": "MIT",
   "private": true,
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "tag": "next"
   },
   "type": "module",
   "main": "dist/index.js",
