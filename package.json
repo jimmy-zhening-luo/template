@@ -1,5 +1,5 @@
 {
-  "$template": "22.13.2",
+  "$template": "22.13.3",
   "name": "package_name",
   "version": "0.0.0",
   "description": "",
@@ -17,7 +17,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "config": {
-    "language": "LANGUAGE",
+    "language": "ts",
     "rewrite": "true",
     "lint": "true"
   },
