@@ -1,18 +1,11 @@
 {
-  "$template": "22.13.3",
+  "$template": "22.13.4",
   "name": "package_name",
   "version": "0.0.0",
   "description": "",
-  "keywords": [],
   "repository": "github:jimmy-zhening-luo/REPO",
-  "homepage": "https://github.com/jimmy-zhening-luo/REPO#readme",
-  "bugs": "https://github.com/jimmy-zhening-luo/REPO/issues",
   "license": "MIT",
   "private": true,
-  "publishConfig": {
-    "access": "public",
-    "tag": "next"
-  },
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -88,10 +81,15 @@
     "predeploy": "npm test",
     "deploy": ""
   },
+  "publishConfig": {
+    "access": "public",
+    "tag": "next"
+  },
   "mocha": {
     "spec": [
       "dist/**/*.spec.js"
     ]
   },
+  "keywords": [],
   "author": "Jimmy Zhening Luo <1450044+jimmy-zhening-luo@users.noreply.github.com> (https://jimm.my/)"
 }
