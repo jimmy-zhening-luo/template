@@ -1,5 +1,5 @@
 {
-  "_schemaVersion": "22.13.1",
+  "$template": "22.13.2",
   "name": "package_name",
   "version": "0.0.0",
   "description": "",
