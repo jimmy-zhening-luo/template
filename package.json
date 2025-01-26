@@ -1,19 +1,11 @@
 {
-  "$template": "22.13.4",
+  "$template": "22.13.5",
   "name": "package_name",
   "version": "0.0.0",
   "description": "",
   "repository": "github:jimmy-zhening-luo/REPO",
   "license": "MIT",
   "private": true,
-  "type": "module",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "config": {
-    "language": "ts",
-    "rewrite": "true",
-    "lint": "true"
-  },
   "engineStrict": true,
   "engines": {
     "node": ">=22.13.1",
@@ -32,6 +24,14 @@
     "run-script-os": "^1.1.6",
     "ts-add-js-extension": "^1.6.5",
     "typescript": "^5.7.3"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "config": {
+    "language": "ts",
+    "rewrite": "true",
+    "lint": "true"
   },
   "scripts": {
     "build": "run-os",
