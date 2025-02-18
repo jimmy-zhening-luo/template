@@ -1,5 +1,6 @@
 {
   "$template": "22.14.2",
+  "$help": "https://docs.npmjs.com/cli/configuring-npm/package-json",
   "name": "packagename",
   "version": "0.0.0",
   "description": "",
