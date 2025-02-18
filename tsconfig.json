@@ -1,6 +1,6 @@
 {
-  "display": "@prototypic/tsc",
-  "version": "5.7.1",
+  "display": "@prototypic/tsconfig",
+  "version": "5.7.2",
   "$schema": "https://json.schemastore.org/tsconfig",
   "$help": "https://www.typescriptlang.org/tsconfig/#quick-nav-Top%20Level",
   // #region SCOPE
