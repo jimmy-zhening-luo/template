@@ -1,6 +1,6 @@
 {
-  "$template": "22.14.1",
-  "name": "package_name",
+  "$template": "22.14.2",
+  "name": "packagename",
   "version": "0.0.0",
   "description": "",
   "repository": "github:jimmy-zhening-luo/REPO",
