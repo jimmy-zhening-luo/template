@@ -1,5 +1,5 @@
 {
-  "$template": "22.14.0",
+  "$template": "22.14.1",
   "name": "package_name",
   "version": "0.0.0",
   "description": "",
@@ -91,5 +91,5 @@
     ]
   },
   "keywords": [],
-  "author": "Jimmy Zhening Luo <1450044+jimmy-zhening-luo@users.noreply.github.com> (https://jimm.my/)"
+  "author": "Jimmy Zhening Luo <jimmy-zhening-luo@users.noreply.github.com> (https://jimm.my/)"
 }
