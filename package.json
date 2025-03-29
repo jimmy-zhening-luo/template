@@ -1,5 +1,5 @@
 {
-  "$pkg": "2214.3.0",
+  "$pkg": "2214.4.0",
   "$schema": "https://json.schemastore.org/package",
   "$help": "https://docs.npmjs.com/cli/configuring-npm/package-json",
   "name": "packagename",
@@ -78,6 +78,9 @@
     "postpublish:windows": "cmd /c for /f \"delims=-\" %a in (\"%npm_package_version%\") do if \"%a\" == \"%npm_package_version%\" npm dist-tag add \"%npm_package_name%@%npm_package_version%\" latest",
     "predeploy": "npm test",
     "deploy": ""
+  },
+  "publishConfig": {
+    "tag": "next"
   },
   "license": "MIT",
   "description": "",
