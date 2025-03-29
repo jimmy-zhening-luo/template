@@ -1,18 +1,17 @@
 {
-  "$pkg": "2214.1.0",
+  "$pkg": "2214.2.0",
   "$schema": "https://json.schemastore.org/package",
   "$help": "https://docs.npmjs.com/cli/configuring-npm/package-json",
   "name": "packagename",
   "version": "0.0.0",
-  "description": "",
   "repository": "github:jimmy-zhening-luo/REPO",
-  "license": "MIT",
   "private": true,
   "engineStrict": true,
   "engines": {
     "node": ">=22.14.0 <23",
     "npm": ">=11.2.0 <12"
   },
+  "type": "module",
   "peerDependenciesMeta": {},
   "dependencies": {},
   "devDependencies": {
@@ -27,7 +26,6 @@
     "ts-add-js-extension": "^1.6.5",
     "typescript": "^5.8.2"
   },
-  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "config": {
@@ -81,15 +79,8 @@
     "predeploy": "npm test",
     "deploy": ""
   },
-  "publishConfig": {
-    "access": "public",
-    "tag": "next"
-  },
-  "mocha": {
-    "spec": [
-      "dist/**/*.spec.js"
-    ]
-  },
-  "keywords": [],
-  "author": "Jimmy Zhening Luo <jimmy-zhening-luo@users.noreply.github.com> (https://jimm.my/)"
+  "license": "MIT",
+  "author": "Jimmy Zhening Luo <jimmy-zhening-luo@users.noreply.github.com> (https://jimm.my/)",
+  "description": "",
+  "keywords": []
 }
