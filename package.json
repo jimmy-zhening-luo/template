@@ -1,5 +1,5 @@
 {
-  "$pkg": "2214.2.0",
+  "$pkg": "2214.3.0",
   "$schema": "https://json.schemastore.org/package",
   "$help": "https://docs.npmjs.com/cli/configuring-npm/package-json",
   "name": "packagename",
@@ -80,7 +80,7 @@
     "deploy": ""
   },
   "license": "MIT",
-  "author": "Jimmy Zhening Luo <jimmy-zhening-luo@users.noreply.github.com> (https://jimm.my/)",
   "description": "",
-  "keywords": []
+  "keywords": [],
+  "author": "Jimmy Zhening Luo <jimmy-zhening-luo@users.noreply.github.com> (https://jimm.my/)"
 }
