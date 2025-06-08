@@ -1,6 +1,6 @@
 ####################
 ###   .mocharc   ###
-###   1101.0.1   ###
+###   1105.0.0   ###
 ####################
 
 # https://mochajs.org/#configuration-format
@@ -12,4 +12,3 @@ extension:
   - js
   - cjs
   - mjs
-color: true
