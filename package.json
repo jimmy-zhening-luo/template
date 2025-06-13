@@ -1,5 +1,5 @@
 {
-  "$pkg": "2216.0.1",
+  "$pkg": "2216.0.2",
   "$schema": "https://json.schemastore.org/package",
   "$help": "https://docs.npmjs.com/cli/configuring-npm/package-json",
   "name": "packagename",
@@ -9,7 +9,7 @@
   "engineStrict": true,
   "engines": {
     "node": ">=22.16.0",
-    "npm": ">=11.4.1 <12"
+    "npm": ">=11.4.2 <12"
   },
   "type": "module",
   "peerDependenciesMeta": {},
