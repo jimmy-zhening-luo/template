@@ -1,6 +1,6 @@
 ##############################
 ####      .gitignore      ####
-####       v250.0.0       ####
+####       v250.0.1       ####
 ##############################
 
 #DOC: https://git-scm.com/docs/gitignore
@@ -51,7 +51,7 @@ node_modules/
 *.eslintcache
 *.log
 # Apple Detritus
-*.ds_store
+*.DS_Store
 *.icloud
 .blink*
 #endregion
