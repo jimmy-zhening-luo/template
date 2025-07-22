@@ -5,7 +5,6 @@
     "link": "https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md",
   },
   // #endregion
-  // #region Rules
   "heading-increment": true /* MD001 */,
   "heading-style": {
     "style": "atx",
@@ -126,5 +125,4 @@
   } /* MD055 */,
   "table-column-count": true /* MD056 */,
   "blanks-around-tables": false /* MD058 */,
-  // #endregion
 }
