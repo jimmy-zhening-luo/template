@@ -1,8 +1,9 @@
 {
-  // #region Meta
-  // "$md": "37.2.0",
-  // "$help": "https://github.com/DavidAnson/markdownlint/blob/v0.37.4/doc/Rules.md",
-  // "$schema": "https://raw.githubusercontent.com/DavidAnson/markdownlint/v0.37.4/schema/markdownlint-config-schema.json",
+  // #region v38.0.0
+  "$schema": "https://gist.githubusercontent.com/jimmy-zhening-luo/e0d6b5715f0df18bc462f752520bd485/raw",
+  "$help": {
+    "link": "https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md",
+  },
   // #endregion
   // #region Rules
   "heading-increment": true /* MD001 */,
