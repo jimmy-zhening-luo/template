@@ -30,7 +30,7 @@
   "scripts": {
     "clean": "run-s clean:*",
     "clean:ts": "cmd /c if exist dist rmdir /s /q dist || rm -rf dist",
-    "clean:svelte": "(cmd /c \"(if exist build rmdir /s /q build) & (if exist .svelte-kit rmdir /s /q .svelte-kit)\") || rm -rf build .svelte-kit",
+    "clean:svelte": "cmd /c \"if exist build rmdir /s /q build & if exist .svelte-kit rmdir /s /q .svelte-kit\" || rm -rf build .svelte-kit",
     "clean:lint": "cmd /c if exist .eslintcache del /f /q .eslintcache || rm -f .eslintcache",
     "prebuild": "npm run clean",
     "build": "run-s build:ts:*",
@@ -49,7 +49,9 @@
     "start:ts": "node .",
     "start:svelte": "vite preview --open",
     "prepublishOnly": "npm test",
-    "postpublish": "(cmd /c for /f \"delims=-\" %a in (\"%npm_package_version%\") do if \"%a\" == \"%npm_package_version%\" npm dist-tag add \"%npm_package_name%@%npm_package_version%\" latest) || (if [ \"${npm_package_version#*-}\" = \"${npm_package_version}\" ]; then npm dist-tag add \"$npm_package_name@$npm_package_version\" latest; fi)",
+    "postpublish": "npm run postpublish:windows || npm run postpublish:default",
+    "postpublish:windows": "cmd /c for /f \"delims=-\" %a in (\"%npm_package_version%\") do if \"%a\" == \"%npm_package_version%\" npm dist-tag add \"%npm_package_name%@%npm_package_version%\" latest",
+    "postpublish:default": "if [ \"${npm_package_version#*-}\" = \"${npm_package_version}\" ]; then npm dist-tag add \"$npm_package_name@$npm_package_version\" latest; fi",
     "predeploy": "npm test",
     "deploy": ""
   },
