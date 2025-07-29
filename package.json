@@ -1,5 +1,5 @@
 {
-  "$pkg": "2211.1.0",
+  "$pkg": "2211.1.1",
   "$schema": "https://json.schemastore.org/package",
   "$help": "https://docs.npmjs.com/cli/configuring-npm/package-json",
   "name": "npmpackage",
@@ -19,7 +19,7 @@
     "@types/mocha": "^10.0.10",
     "chai": "^5.2.1",
     "eslint": "~9.32.0",
-    "linted": "~30.6.0",
+    "linted": "~30.6.1",
     "mocha": "^11.7.1",
     "ts-add-js-extension": "^1.6.6",
     "typescript": "^5.8.3"
@@ -27,7 +27,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "clean": "cmd /c \"if exist dist rmdir /s /q dist & if exist build rmdir /s /q build & if exist .svelte-kit rmdir /s /q .svelte-kit & if exist .eslintcache del /f /q .eslintcache\" || rm -rf dist build .svelte-kit .eslintcache",
+    "clean": "cmd /c \"(if exist dist rmdir /s /q dist) & (if exist build rmdir /s /q build) & (if exist .svelte-kit rmdir /s /q .svelte-kit) & (if exist .eslintcache del /f /q .eslintcache)\" || rm -rf dist build .svelte-kit .eslintcache",
     "prebuild": "npm run clean",
     "build": "tsc && ts-add-js-extension --dir=dist",
     "build:svelte": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json && vite build",
