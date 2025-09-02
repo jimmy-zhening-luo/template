@@ -1,10 +1,13 @@
 {
-  "$pkg": "2211.3.0",
+  "$pkg": "2211.4.0",
   "$schema": "https://json.schemastore.org/package",
   "$help": "https://docs.npmjs.com/cli/configuring-npm/package-json",
   "name": "npmpackage",
   "version": "0.0.0",
   "repository": "github:jimmy-zhening-luo/REPO",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
   "private": true,
   "engineStrict": true,
   "engines": {
@@ -41,16 +44,12 @@
     "start:ts": "node .",
     "start:svelte": "vite preview --open",
     "prepublishOnly": "npm test",
-    "postpublish": "cmd --% /c \"for /f \"delims=-\" %a in (\"%npm_package_version%\") do if \"%a\" == \"%npm_package_version%\" npm dist-tag add \"%npm_package_name%@%npm_package_version%\" latest\" || npm run postpublish-unix",
-    "postpublish-unix": "if [ \"${npm_package_version#*-}\" = \"${npm_package_version}\" ]; then npm dist-tag add \"$npm_package_name@$npm_package_version\" latest; fi",
+    "postpublish": "cmd --% /c \"for /f \"delims=-\" %a in (\"%npm_package_version%\") do if \"%a\" == \"%npm_package_version%\" npm dist-tag add \"%npm_package_name%@%npm_package_version%\" latest\" || bash -c 'if [ \"${npm_package_version#*-}\" = \"${npm_package_version}\" ]; then npm dist-tag add \"$npm_package_name@$npm_package_version\" latest; fi'",
     "predeploy": "npm test",
     "deploy": ""
   },
   "publishConfig": {
     "tag": "next"
   },
-  "license": "MIT",
-  "description": "",
-  "keywords": [],
   "author": "Jimmy Zhening Luo <jimmy-zhening-luo@users.noreply.github.com> (https://jimm.my/)"
 }
