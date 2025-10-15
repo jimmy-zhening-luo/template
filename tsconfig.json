@@ -1,5 +1,5 @@
 {
-  "display": "tsc@509.2.1",
+  "display": "tsc@509.3.0",
   "include": [
     "src/**/*.ts",
     "typings/**/*.d.ts",
@@ -44,7 +44,7 @@
     // "allowJs": true,
     // "checkJs": true,
     // "isolatedDeclarations": false,
-    "verbatimModuleSyntax": true,
+    // "verbatimModuleSyntax": true,
     "lib": [
       "esnext",
       /* {CONFIGURE} */
