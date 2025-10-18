@@ -44,7 +44,6 @@
     "start:ts": "node .",
     "start:svelte": "vite preview --open",
     "prepublishOnly": "npm test",
-    "postpublish": "cmd --% /c \"for /f \"delims=-\" %a in (\"%npm_package_version%\") do if \"%a\" == \"%npm_package_version%\" npm dist-tag add \"%npm_package_name%@%npm_package_version%\" latest\" || bash -c 'if [ \"${npm_package_version#*-}\" = \"${npm_package_version}\" ]; then npm dist-tag add \"$npm_package_name@$npm_package_version\" latest; fi'",
     "predeploy": "npm test",
     "deploy": ""
   },
