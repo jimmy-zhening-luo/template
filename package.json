@@ -1,5 +1,5 @@
 {
-  "$pkg": "2411.2.1",
+  "$pkg": "2411.2.2",
   "$schema": "https://json.schemastore.org/package",
   "$help": "https://docs.npmjs.com/cli/configuring-npm/package-json",
   "name": "npmpackage",
@@ -46,6 +46,7 @@
     "prepublishOnly": "npm run clean && npm test",
     "publish:release": "cmd --% /c \"for /f \"delims=-\" %a in (\"%npm_package_version%\") do if \"%a\" == \"%npm_package_version%\" (npm publish) else (npm publish --tag=next)\" || bash -c 'if [ \"${npm_package_version#*-}\" = \"${npm_package_version}\" ]; then npm publish; else npm publish --tag=next; fi'",
     "predeploy": "npm run clean && npm test",
+    "stage": "",
     "deploy": ""
   },
   "author": "Jimmy Zhening Luo <jimmy-zhening-luo@users.noreply.github.com> (https://jimm.my/)"
