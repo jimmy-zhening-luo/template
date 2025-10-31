@@ -1,5 +1,5 @@
 {
-  "$pkg": "2411.2.0",
+  "$pkg": "2411.2.1",
   "$schema": "https://json.schemastore.org/package",
   "$help": "https://docs.npmjs.com/cli/configuring-npm/package-json",
   "name": "npmpackage",
@@ -33,7 +33,7 @@
     "build": "npm run build:ts",
     "build:ts": "tsc -b src",
     "build:svelte": "svelte-kit sync && svelte-check && vite build",
-    "postbuild:ts": "ts-add-js-extension --showprogress=false --dir=dist",
+    "postbuild:ts": "npm run --if-present stage && ts-add-js-extension --showprogress=false --dir=dist",
     "postbuild": "npm run lint || exit 0",
     "lint": "eslint --cache --fix",
     "pretest": "npm run build",
