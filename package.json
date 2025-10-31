@@ -39,7 +39,7 @@
     "pretest": "npm run build",
     "test": "npm run --if-present test:suite",
     "test:suite": "mocha",
-    "prestart": "npm run --ignore-scripts build",
+    "prestart": "npm run build",
     "start": "npm run start:ts",
     "start:ts": "node .",
     "start:svelte": "vite preview --open",
