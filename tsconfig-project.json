@@ -1,0 +1,22 @@
+{
+  "extends": "./tsconfig-base.json",
+  "compilerOptions": {
+    // "module": "esnext",
+    // "moduleResolution": "bundler",
+    "types": [
+      "mocha",
+      "chai",
+      /* {CONFIGURE} */
+    ],
+    // "declaration": true,
+    // "sourceMap": false,
+    // "verbatimModuleSyntax": true,
+    "lib": [
+      "esnext",
+      /* {CONFIGURE} */
+    ],
+    // "target": "esnext",
+    // "composite": false,
+    // "skipLibCheck": true,
+  },
+}
