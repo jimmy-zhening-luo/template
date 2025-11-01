@@ -39,7 +39,7 @@
     "pretest": "npm run --ignore-scripts build",
     "test": "npm run --if-present test:suite",
     "test:suite": "tsc -b tests && ts-add-js-extension --showprogress=false --dir=dist && mocha",
-    "postttest": "npm run postbuild",
+    "posttest": "npm run postbuild",
     "prestart": "npm run build",
     "start": "npm run start:ts",
     "start:ts": "node .",
