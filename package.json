@@ -23,7 +23,7 @@
     "@types/chai": "^5.2.3",
     "@types/mocha": "^10.0.10",
     "chai": "^6.2.0",
-    "linted": "33.4.8",
+    "linted": "33.4.9",
     "mocha": "^11.7.4",
     "ts-add-js-extension": "^1.6.6",
     "typescript": "^5.9.3"
