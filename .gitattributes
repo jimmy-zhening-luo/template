@@ -1,8 +1,13 @@
 * text=auto
+
 *.{cmd,[cC][mM][dD]} text eol=crlf
 *.{bat,[bB][aA][tT]} text eol=crlf
 *.{ics,[iI][cC][sS]} text eol=crlf
 *.sh text eol=lf
+*.bash_profile text eol=lf
+*.bashrc text eol=lf
+*.bash_aliases text eol=lf
+
 *.gitattributes text eol=lf
 *.gitignore text eol=lf
 LICENSE text eol=lf
