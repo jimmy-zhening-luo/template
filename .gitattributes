@@ -39,3 +39,6 @@ LICENSE text eol=lf
 *.psd1 text eol=lf
 *.claspignore text eol=lf
 *.funcignore text eol=lf
+*.py text eol=lf
+*.jinja text eol=lf
+*.example text eol=lf
