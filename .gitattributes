@@ -1,8 +1,11 @@
 * text=auto
+*.{cmd,[cC][mM][dD]} text eol=crlf
+*.{bat,[bB][aA][tT]} text eol=crlf
+*.{ics,[iI][cC][sS]} text eol=crlf
+*.sh text eol=lf
 *.gitattributes text eol=lf
 *.gitignore text eol=lf
 LICENSE text eol=lf
-*.sh text eol=lf
 *.txt text eol=lf
 *.md text eol=lf
 *.json{,c} text eol=lf
