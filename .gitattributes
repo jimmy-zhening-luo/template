@@ -1,1 +1,14 @@
 * text=auto
+*.gitattributes text eol=lf
+*.gitignore text eol=lf
+LICENSE text eol=lf
+*.sh text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.json{,c} text eol=lf
+*.y{,a}ml text eol=lf
+*.{,[cm]}[tj]s{,x} text eol=lf
+*.svelte text eol=lf
+*.html text eol=lf
+*.{,s}css text eol=lf
+*.svg text eol=lf
