@@ -9,7 +9,9 @@
 *.bash_aliases text eol=lf
 
 *.gitattributes text eol=lf
+*.gitconfig text eol=lf
 *.gitignore text eol=lf
+*.git-credentials text eol=lf
 LICENSE text eol=lf
 *.txt text eol=lf
 *.md text eol=lf
@@ -32,3 +34,6 @@ LICENSE text eol=lf
 *.svg text eol=lf
 *.csv text eol=lf
 *.tsv text eol=lf
+*.ps1 text eol=lf
+*.psm1 text eol=lf
+*.psd1 text eol=lf
