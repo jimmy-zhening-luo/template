@@ -12,3 +12,4 @@ LICENSE text eol=lf
 *.html text eol=lf
 *.{,s}css text eol=lf
 *.svg text eol=lf
+*.[ct]sv text eol=lf
