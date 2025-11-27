@@ -17,6 +17,7 @@ LICENSE text eol=lf
 *.jsonc text eol=lf
 *.yml text eol=lf
 *.yaml text eol=lf
+*.npmrc text eol=lf
 *.js text eol=lf
 *.cjs text eol=lf
 *.mjs text eol=lf
