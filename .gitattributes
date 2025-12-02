@@ -10,7 +10,7 @@
 LICENSE text eol=lf
 *.git{attributes,config,ignore} text eol=lf
 *.{txt,md} text eol=lf
-*.{json,jsonc,code-snippets} text eol=lf
+*.{json,jsonc} text eol=lf
 *.{yml,yaml} text eol=lf
 *.[ct]sv text eol=lf
 *.{svg,xml,plist} text eol=lf
@@ -21,3 +21,4 @@ LICENSE text eol=lf
 *.{clasp,func}ignore text eol=lf
 *.npmrc text eol=lf
 *.example text eol=lf
+*.code-snippets eol=lf
