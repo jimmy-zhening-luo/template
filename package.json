@@ -1,5 +1,5 @@
 {
-  "$pkg": "2411.7.0",
+  "$pkg": "2412.0.0",
   "$schema": "https://json.schemastore.org/package",
   "$help": "https://docs.npmjs.com/cli/configuring-npm/package-json",
   "name": "npmpackage",
@@ -15,8 +15,14 @@
     "npm": "^11"
   },
   "type": "module",
-  "main": "dist/index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
   "types": "dist/index.d.ts",
+  "main": "dist/index.js",
   "peerDependenciesMeta": {},
   "dependencies": {},
   "devDependencies": {
