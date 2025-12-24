@@ -1,12 +1,13 @@
 ##############################
 ####    .gitattributes    ####
-####       v252.1.0       ####
+####       v252.2.0       ####
 ##############################
 
 * text=auto
 
 *.cmd text eol=crlf
 *.bat text eol=crlf
+*.reg text eol=crlf
 *.ics text eol=crlf
 *.sh text eol=lf
 *.bashrc text eol=lf
@@ -15,6 +16,7 @@
 *.ps1 text eol=lf
 *.psm1 text eol=lf
 *.psd1 text eol=lf
+*.ps1xml text eol=lf
 
 LICENSE text eol=lf
 *.gitattributes text eol=lf
@@ -36,6 +38,8 @@ LICENSE text eol=lf
 *.tmLanguage text eol=lf
 *.tmPreferences text eol=lf
 *.tmTheme text eol=lf
+*.JSON-tmLanguage text eol=lf
+*.YAML-tmLanguage text eol=lf
 *.h text eol=lf
 *.hpp text eol=lf
 *.hxx text eol=lf
