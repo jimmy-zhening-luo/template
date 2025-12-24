@@ -28,7 +28,7 @@
   "devDependencies": {
     "@types/chai": "^5.2.3",
     "@types/mocha": "^10.0.10",
-    "chai": "^6.2.1",
+    "chai": "^6.2.2",
     "linted": "36.0.2",
     "mocha": "^11.7.5",
     "ts-add-js-extension": "^1.6.6",
