@@ -12,14 +12,14 @@
   "ul-style": false /* MD004 */,
   "list-indent": true /* MD005 */,
   "ul-indent": {
-    "indent": 4,
+    "indent": 2,
   } /* MD007 */,
   "no-trailing-spaces": {
     "br_spaces": 0,
     "strict": true,
   } /* MD009 */,
   "no-hard-tabs": {
-    "spaces_per_tab": 4,
+    "spaces_per_tab": 2,
     "ignore_code_languages": [],
   } /* MD010 */,
   "no-reversed-links": true /* MD011 */,
