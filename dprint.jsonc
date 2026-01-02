@@ -78,8 +78,6 @@
     "exportDeclaration.sortTypeOnlyExports": "none",
     "importDeclaration.sortNamedImports": "maintain",
     "importDeclaration.sortTypeOnlyImports": "none",
-    "exportDeclaration.forceSingleLine": true,
-    "importDeclaration.forceSingleLine": true,
     "exportDeclaration.forceMultiLine": "whenMultiple",
     "importDeclaration.forceMultiLine": "whenMultiple",
   },
