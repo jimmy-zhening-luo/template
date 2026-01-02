@@ -154,8 +154,6 @@
     "locked": true,
     "lineWidth": 180,
     "newLineKind": "lf",
-    "useTabs": false,
-    "indentWidth": 2,
     "textWrap": "maintain",
     "emphasisKind": "underscores",
     "strongKind": "underscores",
