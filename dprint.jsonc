@@ -2,6 +2,18 @@
   "$schema": "https://raw.githubusercontent.com/jimmy-zhening-luo/dprint/refs/heads/main/dprint-schema.json",
   // $help: https://dprint.dev/config/
   // $version: 0.5101.2
+  "excludes": [
+    "**/node_modules/",
+    "**/*-lock.json",
+    "**/.clasprc.json",
+    "**/dist/**",
+    "**/.svelte-kit/**",
+    "**/.vscode/c_cpp_properties.json",
+  ],
+  "lineWidth": 180,
+  "useTabs": false,
+  "indentWidth": 2,
+  "newLineKind": "lf",
   "plugins": [
     "https://plugins.dprint.dev/typescript-0.95.13.wasm",
     "https://plugins.dprint.dev/json-0.21.0.wasm",
@@ -12,18 +24,6 @@
     "https://plugins.dprint.dev/g-plane/pretty_jinja-v0.2.0.wasm",
     "https://plugins.dprint.dev/roslyn-0.19.1.json@a5daf2404c57680374f255c78f1956916482aa4b4e90825f1a48eb5a7e343b35",
   ],
-  "excludes": [
-    "**/node_modules/**",
-    "**/*-lock.json",
-    "**/.clasprc.json",
-    "**/dist/**",
-    "**/.svelte-kit/**",
-    "**/.vscode/c_cpp_properties.json",
-  ],
-  "lineWidth": 180,
-  "newLineKind": "lf",
-  "useTabs": false,
-  "indentWidth": 2,
   "typescript": {
     // $help: https://dprint.dev/plugins/typescript/
     // $help: https://dprint.dev/plugins/typescript/config/
