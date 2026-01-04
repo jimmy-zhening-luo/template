@@ -11,9 +11,9 @@
     "**/.vscode/c_cpp_properties.json",
   ],
   "lineWidth": 180,
-  "useTabs": false,
   "indentWidth": 2,
   "newLineKind": "lf",
+  "useTabs": false,
   "plugins": [
     "https://plugins.dprint.dev/typescript-0.95.13.wasm",
     "https://plugins.dprint.dev/json-0.21.0.wasm",
