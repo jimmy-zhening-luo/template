@@ -5,13 +5,19 @@
     "link": "https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md",
   },
   // #endregion
-  "heading-increment": true /* MD001 */,
+  "heading-increment": {
+    "enabled": true,
+  } /* MD001 */,
   "heading-style": {
     "enabled": true,
     "style": "atx",
   } /* MD003 */,
-  "ul-style": false /* MD004 */,
-  "list-indent": true /* MD005 */,
+  "ul-style": {
+    "enabled": true,
+  } /* MD004 */,
+  "list-indent": {
+    "enabled": true,
+  } /* MD005 */,
   "ul-indent": {
     "enabled": true,
     "indent": 2,
@@ -26,37 +32,67 @@
     "spaces_per_tab": 2,
     "ignore_code_languages": [],
   } /* MD010 */,
-  "no-reversed-links": true /* MD011 */,
-  "no-multiple-blanks": true /* MD012 */,
-  "line-length": false /* MD013 */,
-  "commands-show-output": true /* MD014 */,
-  "no-missing-space-atx": true /* MD018 */,
-  "no-multiple-space-atx": true /* MD019 */,
-  "no-missing-space-closed-atx": true /* MD020 */,
-  "no-multiple-space-closed-atx": true /* MD021 */,
+  "no-reversed-links": {
+    "enabled": true,
+  } /* MD011 */,
+  "no-multiple-blanks": {
+    "enabled": true,
+  } /* MD012 */,
+  "line-length": {
+    "enabled": false,
+  } /* MD013 */,
+  "commands-show-output": {
+    "enabled": true,
+  } /* MD014 */,
+  "no-missing-space-atx": {
+    "enabled": true,
+  } /* MD018 */,
+  "no-multiple-space-atx": {
+    "enabled": true,
+  } /* MD019 */,
+  "no-missing-space-closed-atx": {
+    "enabled": true,
+  } /* MD020 */,
+  "no-multiple-space-closed-atx": {
+    "enabled": true,
+  } /* MD021 */,
   "blanks-around-headings": {
     "enabled": true,
     "lines_below": 0,
   } /* MD022 */,
-  "heading-start-left": true /* MD023 */,
+  "heading-start-left": {
+    "enabled": true,
+  } /* MD023 */,
   "no-duplicate-heading": {
     "enabled": true,
     "siblings_only": true,
   } /* MD024 */,
-  "single-title": false /* MD025 */,
-  "no-trailing-punctuation": false /* MD026 */,
-  "no-multiple-space-blockquote": true /* MD027 */,
-  "no-blanks-blockquote": true /* MD028 */,
+  "single-title": {
+    "enabled": false,
+  } /* MD025 */,
+  "no-trailing-punctuation": {
+    "enabled": false,
+  } /* MD026 */,
+  "no-multiple-space-blockquote": {
+    "enabled": true,
+  } /* MD027 */,
+  "no-blanks-blockquote": {
+    "enabled": true,
+  } /* MD028 */,
   "ol-prefix": {
     "enabled": true,
     "style": "one_or_ordered",
   } /* MD029 */,
-  "list-marker-space": true /* MD030 */,
+  "list-marker-space": {
+    "enabled": true,
+  } /* MD030 */,
   "blanks-around-fences": {
     "enabled": true,
     "list_items": false,
   } /* MD031 */,
-  "blanks-around-lists": true /* MD032 */,
+  "blanks-around-lists": {
+    "enabled": true,
+  } /* MD032 */,
   "no-inline-html": {
     "enabled": true,
     "allowed_elements": [
@@ -66,26 +102,50 @@
       "summary",
     ],
   } /* MD033 */,
-  "no-bare-urls": false /* MD034 */,
+  "no-bare-urls": {
+    "enabled": false,
+  } /* MD034 */,
   "hr-style": {
     "enabled": true,
     "style": "---",
   } /* MD035 */,
-  "no-emphasis-as-heading": false /* MD036 */,
-  "no-space-in-emphasis": true /* MD037 */,
-  "no-space-in-code": false /* MD038 */,
-  "no-space-in-links": true /* MD039 */,
-  "fenced-code-language": false /* MD040 */,
-  "first-line-heading": false /* MD041 */,
-  "no-empty-links": true /* MD042 */,
-  "required-headings": false /* MD043 */,
-  "proper-names": false /* MD044 */,
-  "no-alt-text": true /* MD045 */,
+  "no-emphasis-as-heading": {
+    "enabled": false,
+  } /* MD036 */,
+  "no-space-in-emphasis": {
+    "enabled": true,
+  } /* MD037 */,
+  "no-space-in-code": {
+    "enabled": false,
+  } /* MD038 */,
+  "no-space-in-links": {
+    "enabled": true,
+  } /* MD039 */,
+  "fenced-code-language": {
+    "enabled": false,
+  } /* MD040 */,
+  "first-line-heading": {
+    "enabled": false,
+  } /* MD041 */,
+  "no-empty-links": {
+    "enabled": true,
+  } /* MD042 */,
+  "required-headings": {
+    "enabled": false,
+  } /* MD043 */,
+  "proper-names": {
+    "enabled": false,
+  } /* MD044 */,
+  "no-alt-text": {
+    "enabled": true,
+  } /* MD045 */,
   "code-block-style": {
     "enabled": true,
     "style": "fenced",
   } /* MD046 */,
-  "single-trailing-newline": true /* MD047 */,
+  "single-trailing-newline": {
+    "enabled": true,
+  } /* MD047 */,
   "code-fence-style": {
     "enabled": true,
     "style": "backtick",
@@ -98,17 +158,31 @@
     "enabled": true,
     "style": "underscore",
   } /* MD050 */,
-  "link-fragments": true /* MD051 */,
-  "reference-links-images": true /* MD052 */,
-  "link-image-reference-definitions": true /* MD053 */,
-  "link-image-style": true /* MD054 */,
+  "link-fragments": {
+    "enabled": true,
+  } /* MD051 */,
+  "reference-links-images": {
+    "enabled": true,
+  } /* MD052 */,
+  "link-image-reference-definitions": {
+    "enabled": true,
+  } /* MD053 */,
+  "link-image-style": {
+    "enabled": true,
+  } /* MD054 */,
   "table-pipe-style": {
     "enabled": true,
     "style": "leading_and_trailing",
   } /* MD055 */,
-  "table-column-count": true /* MD056 */,
-  "blanks-around-tables": true /* MD058 */,
-  "descriptive-link-text": false /* MD059 */,
+  "table-column-count": {
+    "enabled": true,
+  } /* MD056 */,
+  "blanks-around-tables": {
+    "enabled": true,
+  } /* MD058 */,
+  "descriptive-link-text": {
+    "enabled": false,
+  } /* MD059 */,
   "table-column-style": {
     "enabled": true,
     "style": "aligned",
