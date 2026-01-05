@@ -1,6 +1,6 @@
 ##############################
 ####    .gitattributes    ####
-####       v252.3.0       ####
+####       v252.4.0       ####
 ##############################
 
 * text=auto
@@ -54,6 +54,7 @@ LICENSE text eol=lf
 *.jinja text eol=lf
 *.lark text eol=lf
 *.re text eol=lf
+*.adblock text eol=lf
 *.json text eol=lf
 *.jsonc text eol=lf
 *.jsonl text eol=lf
