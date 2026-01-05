@@ -7,18 +7,22 @@
   // #endregion
   "heading-increment": true /* MD001 */,
   "heading-style": {
+    "enabled": true,
     "style": "atx",
   } /* MD003 */,
   "ul-style": false /* MD004 */,
   "list-indent": true /* MD005 */,
   "ul-indent": {
+    "enabled": true,
     "indent": 2,
   } /* MD007 */,
   "no-trailing-spaces": {
+    "enabled": true,
     "br_spaces": 0,
     "strict": true,
   } /* MD009 */,
   "no-hard-tabs": {
+    "enabled": true,
     "spaces_per_tab": 2,
     "ignore_code_languages": [],
   } /* MD010 */,
@@ -31,10 +35,12 @@
   "no-missing-space-closed-atx": true /* MD020 */,
   "no-multiple-space-closed-atx": true /* MD021 */,
   "blanks-around-headings": {
+    "enabled": true,
     "lines_below": 0,
   } /* MD022 */,
   "heading-start-left": true /* MD023 */,
   "no-duplicate-heading": {
+    "enabled": true,
     "siblings_only": true,
   } /* MD024 */,
   "single-title": false /* MD025, single-h1 */,
@@ -42,14 +48,17 @@
   "no-multiple-space-blockquote": true /* MD027 */,
   "no-blanks-blockquote": true /* MD028 */,
   "ol-prefix": {
+    "enabled": true,
     "style": "one_or_ordered",
   } /* MD029 */,
   "list-marker-space": true /* MD030 */,
   "blanks-around-fences": {
+    "enabled": true,
     "list_items": false,
   } /* MD031 */,
   "blanks-around-lists": true /* MD032 */,
   "no-inline-html": {
+    "enabled": true,
     "allowed_elements": [
       "br",
       "details",
@@ -59,6 +68,7 @@
   } /* MD033 */,
   "no-bare-urls": false /* MD034 */,
   "hr-style": {
+    "enabled": true,
     "style": "---",
   } /* MD035 */,
   "no-emphasis-as-heading": false /* MD036 */,
@@ -72,16 +82,20 @@
   "proper-names": false /* MD044 */,
   "no-alt-text": true /* MD045 */,
   "code-block-style": {
+    "enabled": true,
     "style": "fenced",
   } /* MD046 */,
   "single-trailing-newline": true /* MD047 */,
   "code-fence-style": {
+    "enabled": true,
     "style": "backtick",
   } /* MD048 */,
   "emphasis-style": {
+    "enabled": true,
     "style": "underscore",
   } /* MD049 */,
   "strong-style": {
+    "enabled": true,
     "style": "underscore",
   } /* MD050 */,
   "link-fragments": true /* MD051 */,
@@ -89,12 +103,14 @@
   "link-image-reference-definitions": true /* MD053 */,
   "link-image-style": true /* MD054 */,
   "table-pipe-style": {
+    "enabled": true,
     "style": "leading_and_trailing",
   } /* MD055 */,
   "table-column-count": true /* MD056 */,
   "blanks-around-tables": true /* MD058 */,
   "descriptive-link-text": false /* MD059 */,
   "table-column-style": {
+    "enabled": true,
     "style": "aligned",
     "aligned_delimiter": true /* implicitly true when style:aligned */,
   } /* MD060 */,
