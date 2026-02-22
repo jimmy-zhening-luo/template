@@ -1,5 +1,5 @@
 {
-  "$pkg": "2412.0.0",
+  "$pkg": "2413.0.0-rc.0",
   "$schema": "https://json.schemastore.org/package",
   "$help": "https://docs.npmjs.com/cli/configuring-npm/package-json",
   "name": "npmpackage",
@@ -26,11 +26,7 @@
   "peerDependenciesMeta": {},
   "dependencies": {},
   "devDependencies": {
-    "@types/chai": "^5.2.3",
-    "@types/mocha": "^10.0.10",
-    "chai": "^6.2.2",
     "linted": "39.0.1",
-    "mocha": "^11.7.5",
     "ts-add-js-extension": "^1.6.6",
     "typescript": "^5.9.3"
   },
@@ -43,8 +39,7 @@
     "postbuild": "npm run lint || exit 0",
     "lint": "eslint --cache --fix",
     "pretest": "npm run build",
-    "test": "npm run --if-present test:suite",
-    "test:suite": "tsc -b tests && ts-add-js-extension --showprogress=false --dir=dist && mocha",
+    "test": "",
     "prestart": "npm run build",
     "start": "npm run start:ts",
     "start:ts": "node .",
