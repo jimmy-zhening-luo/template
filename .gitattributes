@@ -1,6 +1,6 @@
 ##############################
 ####    .gitattributes    ####
-####       v253.1.0       ####
+####   @version 253.2.0   ####
 ##############################
 
 * text=auto
@@ -22,9 +22,10 @@
 *.bash_aliases text eol=lf
 
 LICENSE text eol=lf
-*.gitattributes text eol=lf
 *.gitconfig text eol=lf
 *.gitignore text eol=lf
+*.gitattributes text eol=lf
+*.editorconfig text eol=lf
 
 *.txt text eol=lf
 *.md text eol=lf
