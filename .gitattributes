@@ -1,6 +1,6 @@
 ##############################
 ####    .gitattributes    ####
-####   @version 253.3.0   ####
+####   @version 253.4.0   ####
 ##############################
 
 #@doc https://git-scm.com/docs/gitattributes
@@ -42,32 +42,6 @@ LICENSE text eol=lf
 *.md text eol=lf
 *.example text eol=lf
 
-*.c text eol=lf
-*.cc text eol=lf
-*.cpp text eol=lf
-*.cxx text eol=lf
-*.h text eol=lf
-*.hpp text eol=lf
-*.hxx text eol=lf
-*.cs text eol=lf
-
-*.js text eol=lf
-*.cjs text eol=lf
-*.mjs text eol=lf
-*.jsx text eol=lf
-*.ts text eol=lf
-*.cts text eol=lf
-*.mts text eol=lf
-*.tsx text eol=lf
-*.svelte text eol=lf
-*.html text eol=lf
-*.css text eol=lf
-*.scss text eol=lf
-*.less text eol=lf
-
-*.py text eol=lf
-*.jinja text eol=lf
-
 *.json text eol=lf
 *.jsonc text eol=lf
 *.jsonl text eol=lf
@@ -97,6 +71,32 @@ LICENSE text eol=lf
 
 *.csv text eol=lf
 *.tsv text eol=lf
+
+*.c text eol=lf
+*.cc text eol=lf
+*.cpp text eol=lf
+*.cxx text eol=lf
+*.h text eol=lf
+*.hpp text eol=lf
+*.hxx text eol=lf
+*.cs text eol=lf
+
+*.js text eol=lf
+*.cjs text eol=lf
+*.mjs text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.cts text eol=lf
+*.mts text eol=lf
+*.tsx text eol=lf
+*.svelte text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+*.less text eol=lf
+
+*.py text eol=lf
+*.jinja text eol=lf
 
 *.adblock text eol=lf
 *.lark text eol=lf
