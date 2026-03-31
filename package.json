@@ -26,7 +26,7 @@
   "peerDependenciesMeta": {},
   "dependencies": {},
   "devDependencies": {
-    "linted": "41.1.0",
+    "linted": "41.1.1",
     "ts-add-js-extension": "^1.6.6",
     "typescript": "^6.0.2"
   },
